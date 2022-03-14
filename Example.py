@@ -6,3 +6,7 @@ h = hashlib.new('sha256')
 h.update(b"message")
 # Affichage
 print(h.hexdigest())
+
+myMessage = b"it's my message"
+h = hashlib.new('md5', myMessage)
+print(h.hexdigest())
