@@ -12,10 +12,10 @@ while doneType:
         if type == i:
             doneType = False
     if doneType:
-        print("\nCommend incorrect\n")
+        print("\nCommande incorrecte\n")
 
 # Demande de la chaîne de caractere
-message = bytes(input("Quel est votre message : "), encoding="utf_8")
+message = bytes(input("Veuillez saisir la chaîne de caractère que vous voulez chiffrer : "), encoding="utf_8")
 
 if type == typeOfHash[0]:
     hash = hashlib.new(typeOfHash[0], message)
