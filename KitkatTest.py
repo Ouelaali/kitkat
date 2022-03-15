@@ -1,4 +1,3 @@
-from encodings import utf_8
 import hashlib
 
 # Vérifier et utiliser le type de hash
