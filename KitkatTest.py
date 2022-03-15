@@ -40,7 +40,6 @@ message = bytes(input("Veuillez saisir la chaîne de caractère que vous voulez 
 
 
 for j in allType:
-    print(j)
     if j == typeOfHash[0]:
         hash = hashlib.new(typeOfHash[0], message)
     elif j == typeOfHash[1]:
