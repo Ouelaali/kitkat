@@ -39,35 +39,7 @@ message = bytes(input("Please enter the string you want to encrypt : "), encodin
 
 
 for j in allType:
-    if j == typeOfHash[0]:
-        hash = hashlib.new(typeOfHash[0], message)
-    elif j == typeOfHash[1]:
-        hash = hashlib.new(typeOfHash[1], message)
-    elif j == typeOfHash[2]:
-        hash = hashlib.new(typeOfHash[2], message)
-    elif j == typeOfHash[3]:
-        hash = hashlib.new(typeOfHash[3], message)
-    elif j == typeOfHash[4]:
-        hash = hashlib.new(typeOfHash[4], message)
-    elif j == typeOfHash[5]:
-        hash = hashlib.new(typeOfHash[5], message)
-    elif j == typeOfHash[6]:
-        hash = hashlib.new(typeOfHash[6], message)
-    elif j == typeOfHash[7]:
-        hash = hashlib.new(typeOfHash[7], message)
-    elif j == typeOfHash[8]:
-        hash = hashlib.new(typeOfHash[8], message)
-    elif j == typeOfHash[9]:
-        hash = hashlib.new(typeOfHash[9], message)
-    elif j == typeOfHash[10]:
-        hash = hashlib.new(typeOfHash[10], message)
-    elif j == typeOfHash[11]:
-        hash = hashlib.new(typeOfHash[11], message)
-    elif j == typeOfHash[12]:
-        hash = hashlib.new(typeOfHash[12], message)
-    elif j == typeOfHash[13]:
-        hash = hashlib.new(typeOfHash[13], message)
-    
+    hash = hashlib.new(j, message)
     message = bytes(hash.hexdigest(), encoding="utf_8")
 
 print(hash.hexdigest())
