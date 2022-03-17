@@ -1,9 +1,9 @@
-from Hash import Hash
+from Hash import hash
 
-allType = Hash.typeOfHash()
+allType = hash.typeOfHash()
 
 # Ask the string
 message = bytes(input("Please enter the string you want to encrypt : "), encoding="utf_8")
 
 # Hash
-Hash.hash(allType, message)
+hash.hash(allType, message)
