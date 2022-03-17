@@ -17,9 +17,8 @@ class Hash:
         foundCount = 0
         while doneType:
             
-            
             number = int(input("How many hashes do you want : "))
-            print("md5, sha1, sha224, sha256, sha384, sha512, blake2b, blake2s, sha3_224, sha3_256, sha3_384, sha3_512, shake_1, shake_2")
+            print("md5, sha1, sha224, sha256, sha384, sha512 (recommended), blake2b, blake2s, sha3_224, sha3_256, sha3_384, sha3_512, shake_1, shake_2")
             type = input("What type of hash do you want (if you put several hashes, separate them with spaces) : ")
             # Do a list of hash
             allType = type.split(" ")
