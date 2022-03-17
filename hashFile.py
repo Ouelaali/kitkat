@@ -20,5 +20,6 @@ with open(sys.argv[1], 'rb') as f:
     while True:
         data = f.read(65536)
         if not data:
+            print('This file is too heavy to be hashed')
             break
         finalHash(allType, data)
