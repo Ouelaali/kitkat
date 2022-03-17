@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file '/Users/linasmati/Documents/GitHub/kitkat/user.ui'
+# Form implementation generated from reading ui file '/Users/linasmati/Documents/GitHub/kitkat/mon dossier/user.ui'
 #
 # Created by: PyQt6 UI code generator 6.2.3
 #

@@ -22,9 +22,6 @@ class Ui_Widget(object):
         self.pushButton_2 = QtWidgets.QPushButton(Widget)
         self.pushButton_2.setGeometry(QtCore.QRect(320, 160, 111, 61))
         self.pushButton_2.setObjectName("pushButton_2")
-        self.listView = QtWidgets.QListView(Widget)
-        self.listView.setGeometry(QtCore.QRect(20, 70, 256, 192))
-        self.listView.setObjectName("listView")
 
         self.retranslateUi(Widget)
         QtCore.QMetaObject.connectSlotsByName(Widget)

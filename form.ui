@@ -52,16 +52,6 @@
     <string>Hash</string>
    </property>
   </widget>
-  <widget class="QListView" name="listView">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>70</y>
-     <width>256</width>
-     <height>192</height>
-    </rect>
-   </property>
-  </widget>
  </widget>
  <resources/>
  <connections/>
