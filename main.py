@@ -1,6 +1,5 @@
 from optionT import *
-
-
+from hashString 
 
 menu_options = {
     1: 'Hash with file',
@@ -19,7 +18,7 @@ def option2():
     print('Handle option  \'Option 2\'')
 def option3():
     print_menuu()
-    new = input("enter your choice")
+    new = input("Enter your choice : ")
     
 
 
