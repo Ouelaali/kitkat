@@ -1,4 +1,4 @@
-from . import Hash
+from Hash import Hash
 
 def hashTheString():
     allType = Hash.typeOfHash()

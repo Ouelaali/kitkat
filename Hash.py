@@ -6,7 +6,7 @@ class Hash:
             hash = hashlib.new(j, message)
             message = bytes(hash.hexdigest(), encoding="utf_8")
 
-        print(hash.hexdigest())
+        print("\n", hash.hexdigest(), "\n")
     
     def typeOfHash():
         # Ask the type of hash
