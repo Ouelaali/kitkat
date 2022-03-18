@@ -1,5 +1,6 @@
 from optionT import *
 from hashString import hashTheString
+from hashFile import hashTheFile
 
 menu_options = {
     1: 'Hash with file',
@@ -13,7 +14,7 @@ def print_menu():
         print (key, '--', menu_options[key] )
 
 def option1():
-    print('Handle option \'Option 1\'')
+    hashTheFile()
 def option2():
     hashTheString()
 def option3():
