@@ -13,10 +13,6 @@ def print_menu():
     for key in menu_options.keys():
         print (key, '--', menu_options[key] )
 
-def print_menuu():
-    for key in menuu_options.keys():
-        print (key, '--', menuu_options[key] )
-
 def mainMenu():
     while(True):
         print_menu()
