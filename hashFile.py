@@ -9,7 +9,5 @@ def hashTheFile():
         allType = Hash.typeOfHash()
         
         # Put the file in binary
-        data = f.read(65536)
-        print(data)
-        
+        data = f.read(65536)        
         Hash.hash(allType, data)
