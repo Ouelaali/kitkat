@@ -57,7 +57,6 @@ def helpMenu():
         elif option == 3:
             print('return')
             mainMenu()
-            exit()
         else: 
             print('\nInvalid option. Please enter a number between 1 and 2\n')
 
