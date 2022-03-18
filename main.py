@@ -18,14 +18,9 @@ def print_menu():
     for key in menu_options.keys():
         print (key, '--', menu_options[key] )
 
-def option1():
-    hashTheFile()
-def option2():
-    hashTheString()
-def option3():
-    print_menuu()
-    new = input("Enter your choice : ")
-    
+def print_menuu():
+    for key in menuu_options.keys():
+        print (key, '--', menuu_options[key] )
 
 def mainMenu():
     while(True):
