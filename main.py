@@ -18,7 +18,7 @@ def option1():
 def option2():
     print('Handle option  \'Option 2\'')
 def option3():
-    print(print_menuu())
+    print_menuu()
     new = input("enter your choice")
     
 
